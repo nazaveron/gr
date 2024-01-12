@@ -13,7 +13,7 @@ header {
     background-color: pink;
     padding: 20px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-a;
     align-items: center;
     z-index: 1000;
 }
@@ -22,7 +22,7 @@ header {
     margin: var(--nav-item-margin);
 }
 
-.rrss>a{
+.rrss>a {
     margin: var(--rrss-link-margin);
 }
 
@@ -38,7 +38,7 @@ header {
     transform: translateY(5px);
 }
 
-.nav-btn{
+.nav-btn {
     cursor: pointer;
     display: none;
 }
@@ -57,16 +57,23 @@ header {
         display: flex;
         background-color: #000;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         gap: 1.5rem;
         transform: translateY(-100vh);
         font-size: 30px;
     }
 
-    header .responsive_nav{
+    header .responsive_nav {
         transform: none;
         flex-direction: column;
     }
 
+    .nav-item {
+        margin: 10px 0;
+        /* Ajusta los márgenes según tus necesidades */
+    }
 
+    .logo{
+        margin-right: 250px;
+    }
 }
