@@ -40,14 +40,14 @@ const Header = () => {
                     
                 <span className="rrss">
                     <a href="https://www.instagram.com/gabriel.rolon/">
-                        <img src="src\assets\insta.svg" alt="instagram icon" />
+                        <img src="./insta.svg" alt="instagram icon" />
                     </a>
                     <a href="https://www.facebook.com/gabrielrolonoficial/">
-                        <img src="src\assets\facebook.svg" alt="facebook icon" />
+                        <img src='./facebook.svg' alt="facebook icon" />
                     </a>
                 </span>
             </nav>
-            <img onClick={showNavbar} className='nav-btn' src="src\assets\menu.svg" alt="" />
+            <img onClick={showNavbar} className='nav-btn' src="./menu.svg" alt="" />
             
         </header>
     );
