@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import InstaIcon from './insta.svg'
 import './header.css';
 
 const Header = () => {
@@ -33,14 +34,14 @@ const Header = () => {
                 <h1>GR</h1>
             </div>
             <nav ref={navRef}>
-            <img className='nav-btn nav-close-btn' onClick={showNavbar} src="src\assets\close-btn.svg" alt="" />
+            <img className='nav-btn nav-close-btn' onClick={showNavbar} src="./close-btn.svg" alt="" />
                 <a href="" className='nav-item'>Psicól. Gabriel Rolón</a>
                 <a href="" className='nav-item'>Testimonios</a>
                 <a href="" className='nav-item'>Contacto</a>
                     
                 <span className="rrss">
                     <a href="https://www.instagram.com/gabriel.rolon/">
-                        <img src="./insta.svg" alt="instagram icon" />
+                        <img src={InstaIcon} alt="instagram icon" />
                     </a>
                     <a href="https://www.facebook.com/gabrielrolonoficial/">
                         <img src='./facebook.svg' alt="facebook icon" />
