@@ -1,0 +1,67 @@
+.testimonios-content p{
+    font-size: 16px;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+/* section header */
+
+.section-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-header .title{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: red;
+    line-height: 1.2;
+}
+
+/* testimonios */
+.testimonios{
+    padding: 100px 0;
+}
+
+.testimonios-item{
+    background-color: aqua;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+}
+
+
+.person-img{
+    max-width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.testimonios-item .name{
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: black;
+    line-height: 1.2;
+}
+
+.testimonios-item .job{
+    text-transform: capitalize;
+    color: grey;
+}
+
+
+.testimonios-item p{
+    margin-top: 20px;
+    color: blueviolet;
+}
+
+.testimonios-item .rating{
+    margin-top: 15px;
+    font-size: 14px;
+}

@@ -1,0 +1,43 @@
+.about-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1 1 400px;
+    padding: 10px 35px;
+}
+
+.about-text > h2 {
+    padding: 20px 0px;
+    font-size: 17px;
+}
+
+p {
+    margin: 10px 20px;
+    margin-block-start: 0;
+    margin-block-end: 0.9rem;
+    text-align: justify;
+}
+
+.about-image {
+    flex: 1 1 400px;
+    background-image: url('src/assets/img-about.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 860px) {
+    .about-content {
+        flex-direction: column; /* Cambia el orden en dispositivos más pequeños */
+        align-items: center; /* Centra los elementos horizontalmente */
+    }
+
+    .about-image,
+    .about-text {
+        width: 100%; /* Ocupa el 100% del ancho en dispositivos más pequeños */
+    }
+}
