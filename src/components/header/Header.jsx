@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import InstaIcon from './insta.svg'
+import InstaIcon from '../header/insta.svg'
 import './header.css';
 
 const Header = () => {
