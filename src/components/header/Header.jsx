@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import InstaIcon from '../header/insta.svg'
+import FacebookIcon from '../header/facebook.svg' 
+import MenuIcon from '../header/menu.svg' 
+import CloseIcon from '../header/close-btn.svg'
 import './header.css';
 
 const Header = () => {
@@ -34,7 +37,7 @@ const Header = () => {
                 <h1>GR</h1>
             </div>
             <nav ref={navRef}>
-            <img className='nav-btn nav-close-btn' onClick={showNavbar} src="./close-btn.svg" alt="" />
+            <img className='nav-btn nav-close-btn' onClick={showNavbar} src={CloseIcon} alt="" />
                 <a href="" className='nav-item'>Psicól. Gabriel Rolón</a>
                 <a href="" className='nav-item'>Testimonios</a>
                 <a href="" className='nav-item'>Contacto</a>
@@ -44,11 +47,11 @@ const Header = () => {
                         <img src={InstaIcon} alt="instagram icon" />
                     </a>
                     <a href="https://www.facebook.com/gabrielrolonoficial/">
-                        <img src='./facebook.svg' alt="facebook icon" />
+                        <img src={FacebookIcon} alt="facebook icon" />
                     </a>
                 </span>
             </nav>
-            <img onClick={showNavbar} className='nav-btn' src="./menu.svg" alt="" />
+            <img onClick={showNavbar} className='nav-btn' src={MenuIcon} alt="" />
             
         </header>
     );
